@@ -7,7 +7,12 @@
   "author": "yezii <1126yezy@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.ts",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
   }
 }
