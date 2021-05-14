@@ -1,0 +1,13 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain",
+  "main": "index.js",
+  "repository": "https://github.com/yejiiha/typescript_study.git",
+  "author": "yezii <1126yezy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.ts",
+    "prestart": "tsc"
+  }
+}
